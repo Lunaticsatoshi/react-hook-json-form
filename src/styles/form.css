@@ -1,0 +1,25 @@
+.hobby-editable-span:empty:focus::before {
+    content: 'Type your option';
+    opacity: 0.75;
+}
+  
+.hobby-editable-span:empty::before{
+    content: 'Add your own option';
+    opacity: 0.75;
+}
+
+.checkbox-pill-container:hover .checkbox-pill:checked{
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.08765 10L10.0001 6.08756' stroke='%23141414' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M6.08716 6.08752L9.9996 9.99997' stroke='%23141414' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z' stroke='%23141414' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    background-color: #EFF3FE;
+}
+  .checkbox-pill:checked{
+    background-color: #231F20;
+}
+  .checkbox-pill:focus:checked{
+    background-color: #231F20;
+}
+  .checkbox-pill:checked:hover{
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.08765 10L10.0001 6.08756' stroke='%23141414' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M6.08716 6.08752L9.9996 9.99997' stroke='%23141414' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z' stroke='%23141414' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    background-color: #EFF3FE;
+}
+
